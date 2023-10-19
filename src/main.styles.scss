@@ -1,0 +1,24 @@
+// golbal styles and changing bulam variables
+
+// Import Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900");
+
+$family-sans-serif: "Nunito", sans-serif;
+
+// Update some of bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// GOLBAL STYLES
+html,
+body {
+  font-family: $family-sans-serif;
+  height: 100%;
+}
+
+html {
+  background-image: url("./assets/images/background.svg");
+  background-size: cover;
+  overflow-y: auto !important;
+}
